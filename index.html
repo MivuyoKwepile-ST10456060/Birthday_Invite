@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spend My Birthday With You 💖</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌈 December 10th — A Day for Us 🌈</h1>
+      <p class="intro">
+        Buhlebendalo Mahashe,
+        I’d love to spend my birthday with you 💕  
+        And the best part? <strong>You get to plan our perfect day!</strong>
+      </p>
+    </header>
+
+    <section class="card">
+      <h2>Would you make my birthday extra special?</h2>
+
+      <!-- Countdown -->
+      <div id="countdown" class="countdown"></div>
+
+      <button id="yesBtn">Of course 💗</button>
+      <button id="maybeBtn">Let me think 🤭</button>
+      <p id="response"></p>
+    </section>
+
+    <section id="planner" class="hidden">
+      <h2>Plan Our Perfect Day ✨</h2>
+      <form id="planForm">
+        <label for="activity">What should we do first?</label>
+        <input type="text" id="activity" name="activity" placeholder="e.g., morning coffee date, beach walk..." required>
+
+        <label for="location">Where should we go?</label>
+        <input type="text" id="location" name="location" placeholder="e.g., that cozy café, the park, anywhere together..." required>
+
+        <label for="vibe">What’s the vibe?</label>
+        <select id="vibe" name="vibe">
+          <option value="romantic">Romantic 💕</option>
+          <option value="fun">Playful & Fun 🌈</option>
+          <option value="chill">Chill & Cozy ☕</option>
+          <option value="adventure">Adventurous 🌄</option>
+        </select>
+
+        <button type="submit">Save Our Plan 💌</button>
+      </form>
+      <p id="thankYou" class="hidden">Thank you! I can’t wait to share this day with you 💫</p>
+    </section>
+
+    <footer>
+      <p>Made with pride & love by Mivuyo Kwepile 🏳️‍🌈</p>
+    </footer>
+  </div>
+</body>
+</html>
