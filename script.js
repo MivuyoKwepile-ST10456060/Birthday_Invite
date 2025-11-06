@@ -67,7 +67,7 @@ function startCountdown() {
 
     countdown.innerHTML = `
       ⏳ Only <span>${days}</span>d <span>${hours}</span>h 
-      <span>${minutes}</span>m <span>${seconds}</span>s left until our morning together 💕
+      <span>${minutes}</span>m <span>${seconds}</span>s left until our day together 💕
     `;
   }
 
