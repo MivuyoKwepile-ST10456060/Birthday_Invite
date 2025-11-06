@@ -5,7 +5,7 @@ const planner = document.getElementById("planner");
 const planForm = document.getElementById("planForm");
 const thankYou = document.getElementById("thankYou");
 
-// 💞 Button interactions
+// Button interactions
 yesBtn.addEventListener("click", () => {
   response.textContent = "Yay! I can’t wait to celebrate with you 💞";
   response.style.color = "#e86ba1";
@@ -24,7 +24,7 @@ planForm.addEventListener("submit", (e) => {
   planForm.reset();
 });
 
-// 💖 Floating hearts animation
+// Floating hearts animation
 function createHearts() {
   for (let i = 0; i < 12; i++) {
     const heart = document.createElement("span");
@@ -45,7 +45,7 @@ function createHearts() {
   }
 }
 
-// 🎉 Countdown to December 10, 2025, at 07:28 AM
+// Countdown to December 10, 2025, at 07:28 AM
 function startCountdown() {
   const countdown = document.getElementById("countdown");
   const eventDate = new Date("December 10, 2025 07:28:00").getTime();
@@ -67,7 +67,7 @@ function startCountdown() {
 
     countdown.innerHTML = `
       ⏳ Only <span>${days}</span>d <span>${hours}</span>h 
-      <span>${minutes}</span>m <span>${seconds}</span>s left until our day together 💕
+      <span>${minutes}</span>m <span>${seconds}</span>s left until our morning together 💕
     `;
   }
 
